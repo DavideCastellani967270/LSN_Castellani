@@ -1,0 +1,17 @@
+0
+34
+200
+2000
+10
+3
+0.9
+0.3
+
+  ReadInput >> terr_type;
+  ReadInput >> Ncities;
+  ReadInput >> pop_size;
+  ReadInput >> Ngen;		//numero di generazioni
+  ReadInput >> Nmigr;		//numero di migrazioni
+  ReadInput >> pselect;		//esponente select
+  ReadInput >> prob_cross;
+  ReadInput >> prob_mute;
