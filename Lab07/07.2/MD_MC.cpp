@@ -16,9 +16,6 @@ Matr.: 967270
 
 
 EXERCISE 07.2
-
-AIM OF THE CODE:
-This code's purpuse is to .
   
 
 KEY WORDS:
