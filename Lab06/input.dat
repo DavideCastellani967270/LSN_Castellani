@@ -1,0 +1,15 @@
+2
+50
+1.0
+0.02
+0
+20
+10000
+
+  ReadInput >> temp;	temperatura iniziale (la maggiore)
+  ReadInput >> nspin;
+  ReadInput >> J;
+  ReadInput >> h;	(0.02 per magnetizzazione, 0 per il resto)
+  ReadInput >> metro;  	(1 per Metropolis, altro per Gibbs)
+  ReadInput >> nblk;
+  ReadInput >> nstep;

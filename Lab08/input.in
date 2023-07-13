@@ -1,0 +1,21 @@
+0
+1
+0.5
+1
+0.1
+0.95
+0.1
+1E-10
+100
+8000
+
+  ReadInput >> restart;
+  ReadInput >> mu;
+  ReadInput >> sigma;
+  ReadInput >> delta_x;   	
+  ReadInput >> delta_par;
+  ReadInput >> cool_rate;
+  ReadInput >> temp_max;
+  ReadInput >> temp_min;
+  ReadInput >> nblk;    	(N)	number of blocks
+  ReadInput >> nstep;   	(L)	number of steps per block

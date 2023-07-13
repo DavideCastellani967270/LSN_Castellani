@@ -1,0 +1,50 @@
+1
+0
+1.2
+100000
+108
+0.05
+5.
+7.
+1
+500000
+
+  ReadInput >> iNVET;     0=MD(NVE) // 1=MC(NVT)
+  ReadInput >> restart;	  0 se no restart // 1 se restart
+  ReadInput >> temp;   	  sol = 0.8 (1.543)    liq = 1.1 (1.978)    gas = 1.2 (0.947)
+  ReadInput >> eq_time;	  sol = 50000	liq = 50000	gas = 100000
+  ReadInput >> npart;	  108
+  ReadInput >> rho;       sol = 1.1    liq = 0.8    gas = 0.05
+  ReadInput >> rcut;      sol = 2.2    liq = 2.5    gas = 5.
+  ReadInput >> delta;     0.0005 per MD, per MC: 0.1 sol	0.2 liq	  7. Gas
+  ReadInput >> nblk; 	(N)	number of blocks
+  ReadInput >> nstep; 	(L)	number of steps per block (10000 gas, 2000 others)
+
+Total MC steps M=500000 -> L = M/N = nstep = 10, 20, 50, 100, 500, 1000, 2500, 5000
+
+nblk
+nstep
+
+50000
+10
+
+25000
+20
+
+10000
+50
+
+5000
+100
+
+1000
+500
+
+500
+1000
+
+200
+2500
+
+100
+5000
