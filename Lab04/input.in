@@ -1,0 +1,24 @@
+0
+0
+1.543
+108
+1.1
+2.2
+0.0005
+20
+10000
+
+  ReadInput >> iNVET;     0=MD(NVE) // 1=MC(NVT)
+  ReadInput >> restart;	  0 se no restart // 1 se restart
+  ReadInput >> temp;      0.948 se gas // 1.98 se liquido // 1.543 se solido
+  ReadInput >> npart;	  108
+  ReadInput >> rho;       0.05 se gas // 0.8 se liquido // 1.1 se solido
+  ReadInput >> rcut;      5 se gas // 2.5 se liquido // 2.2 se solido
+  ReadInput >> delta;     0.0005 se MD e 0.2 se MC
+  ReadInput >> nblk;	  20
+  ReadInput >> nstep;	  10000 se gas // 2000 il resto
+
+		
+	*** SEE FILES input.solid/liqui/gas TO GET THE INPUT VALUES ***
+
+	*** EXECUTE IN THIS ORDER: SOLID - LIQUID - GAS ***
